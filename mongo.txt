@@ -1,0 +1,12 @@
+mongo
+show dbs
+use assignment
+show collections
+db.createCollection("users")
+db.users.insert()
+db.users.insertMany()
+db.users.find()
+db.users.findOne()
+db.users.update()
+db.users.updateMany()
+db.users.remove()
